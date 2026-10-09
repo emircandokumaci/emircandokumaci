@@ -1,52 +1,66 @@
 # Emircan Dokumacı
 
-**AI Automation Specialist | Systems Architecture | n8n & Make.com | APIs, Docker & Cloud Automation**
+**AI Automation & Systems Architecture**  
+Python · n8n · APIs · Docker · Cloud Infrastructure
 
-I build practical automation systems that connect AI tools, APIs, workflow engines, cloud infrastructure, and business processes.
+I design and build automation systems that connect AI tools, APIs, workflow engines, data pipelines, and cloud infrastructure.
 
-My current focus is **AI Automation / Systems Architecture**: designing reliable, maintainable systems that can operate with minimal manual intervention.
+My focus is turning fragmented manual or SaaS-based workflows into **reliable, observable, self-hosted systems** with clear safety boundaries and minimal manual intervention.
 
-## Current Focus
+## What I Build
 
-- AI-powered workflow automation
-- n8n and Make.com orchestration
-- REST API and webhook integrations
-- AI agents and tool-connected workflows
-- Docker-based cloud automation
-- Production-oriented system design
-- Mobile-first infrastructure management
+- AI-powered workflow and process automation
+- API and webhook integrations
+- Self-hosted n8n orchestration
+- Python automation services and backend APIs
+- Dockerized cloud infrastructure
+- Reliability, retries, idempotency, logging, and fail-closed controls
+- System migrations from prototype workflows to maintainable architectures
 
-## Featured Project
+## Selected Work
 
-### Binance Futures Automation Engine
+### Binance Futures Automation & Risk Engine
 
-A self-hosted Binance Global USDⓈ-M Futures research and paper-trading system evolved from Make.com workflow prototypes into a modular FastAPI, PostgreSQL, Docker, and Python architecture.
+A self-hosted Binance Global USDⓈ-M Futures research and paper-trading system that evolved from Make.com workflow prototypes into a modular Python architecture.
 
-**Highlights:**
-- Binance REST and WebSocket integrations
-- Deterministic risk engine
-- Paper execution with fees, slippage, funding, and PnL tracking
-- Multi-timeframe market analysis
-- Exchange-rule and liquidation safeguards
-- Shadow strategy and backtesting
-- Fail-closed safety architecture
-- 35 automated tests
+**Architecture:** Python · FastAPI · PostgreSQL · Docker · Binance REST/WebSocket APIs
+
+**Engineering highlights:**
+- deterministic risk and position-sizing engine
+- liquid USDT perpetual universe selection
+- multi-timeframe market analysis and shadow signals
+- paper execution with fees, slippage, funding, and PnL tracking
+- exchange-rule and liquidation safeguards
+- PostgreSQL event journal and reconciliation layers
+- fail-closed safety architecture
+- **35 automated tests passing**
 
 **Repository:**  
 https://github.com/emircandokumaci/binance-futures-automation-engine
 
-## Tools & Technologies
+## Engineering Approach
 
-`Python` · `FastAPI` · `PostgreSQL` · `Docker` · `n8n` · `Make.com` · `REST APIs` · `Webhooks` · `FFmpeg` · `OAuth` · `DigitalOcean` · `Ubuntu`
+I prefer systems that are:
+
+- **Observable** — state, failures, and outcomes can be inspected
+- **Deterministic where it matters** — risk and safety rules live in code, not prompts
+- **Fail-closed** — missing or stale inputs block unsafe actions
+- **Modular** — services and integrations can be changed independently
+- **Cost-aware** — self-hosted components are used where they make operational sense
+- **Automation-first** — routine operations should not require constant manual intervention
+
+## Core Stack
+
+`Python` · `FastAPI` · `PostgreSQL` · `Docker` · `n8n` · `Make.com` · `REST APIs` · `Webhooks` · `OAuth` · `FFmpeg` · `Ubuntu` · `DigitalOcean`
+
+## Current Direction
+
+Building toward **AI Automation / Systems Architecture** roles and international freelance work focused on practical, production-oriented automation systems.
 
 ## Connect
 
-**LinkedIn**  
+**LinkedIn:**  
 https://www.linkedin.com/in/emircan-dokumacı-2a2685a8
 
-**GitHub**  
+**GitHub:**  
 https://github.com/emircandokumaci
-
----
-
-*Building toward AI Automation / Systems Architecture roles and international freelance projects.*
